@@ -29,7 +29,7 @@ body {
 /* Banner */
 .banner {
     background-color: var(--black-dark);
-    padding: 0;
+    padding: 60px 20px 40px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -41,7 +41,7 @@ body {
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 660px;
+    max-width: 900px;
 }
 
 .banner-image {
@@ -259,33 +259,24 @@ footer:hover p {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .banner {
-        padding: 0;
-    }
-    
-    .banner-content {
-        max-width: 100%;
-        padding: 0 15px;
-    }
-
-    .content-area {
-        padding: 40px 15px;
+        padding: 40px 20px 30px 20px;
     }
     
     .timeline-line {
-        display: none;
+        left: 20px;
     }
     
     .timeline-item {
-        padding-left: 0;
+        padding-left: 60px;
         margin-bottom: 40px;
     }
     
     .timeline-dot {
-        display: none;
+        left: 11px;
     }
     
     .module-card {
-        padding: 25px 15px;
+        padding: 25px 20px;
     }
     
     .module-header {
@@ -304,12 +295,5 @@ footer:hover p {
     
     .resource-link span {
         font-size: 1rem;
-    }
-
-    .video-container iframe {
-        width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 9 / 16;
-        max-width: 400px;
     }
 }
