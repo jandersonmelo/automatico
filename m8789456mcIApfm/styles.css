@@ -125,6 +125,43 @@ body {
     line-height: 1.55;
 }
 
+.compact-course-title {
+    display: none;
+}
+
+/* Focus mode: preserve space for the lesson player after a lesson is selected. */
+body.focus-mode .banner {
+    height: 64px;
+    background: var(--black-dark);
+    border-bottom: 1px solid var(--card-border);
+}
+
+body.focus-mode .banner-content {
+    height: 64px;
+    max-width: none;
+}
+
+body.focus-mode .banner-image,
+body.focus-mode .banner-overlay,
+body.focus-mode .banner-course-title {
+    display: none;
+}
+
+body.focus-mode .compact-course-title {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: clamp(1rem, 2vw, 1.18rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+body.focus-mode .content-area {
+    padding-top: 40px;
+}
+
 /* Timeline Area */
 .content-area {
     flex: 1;
@@ -417,6 +454,15 @@ footer:hover p {
 
     .content-area {
         padding: 40px 15px;
+    }
+
+    body.focus-mode .banner,
+    body.focus-mode .banner-content {
+        height: 56px;
+    }
+
+    body.focus-mode .content-area {
+        padding-top: 28px;
     }
     
     .timeline-line {

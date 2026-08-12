@@ -19,6 +19,7 @@
                 <h1>Mini curso de <span class="title-highlight">IA</span> para <span class="title-highlight">professores</span> do fundamental menor</h1>
                 <p>Aprenda a usar inteligência artificial para transformar suas aulas.</p>
             </div>
+            <p class="compact-course-title">IA para Professores</p>
         </div>
     </header>
 
@@ -62,6 +63,7 @@
 
     <script>
         const lessons = document.querySelectorAll('.lesson');
+        const enterFocusMode = () => document.body.classList.add('focus-mode');
         function closeLesson(lesson) {
             lesson.classList.remove('is-open');
             const trigger = lesson.querySelector('.lesson-trigger');
@@ -85,8 +87,14 @@
             panel.querySelector('.video-container').replaceChildren(frame);
         }
         lessons.forEach(lesson => lesson.querySelector('.lesson-trigger').addEventListener('click', () => {
+            enterFocusMode();
             if (!lesson.classList.contains('is-open')) openLesson(lesson);
         }));
+        window.addEventListener('blur', () => {
+            window.setTimeout(() => {
+                if (document.activeElement?.tagName === 'IFRAME') enterFocusMode();
+            }, 0);
+        });
         openLesson(lessons[0], false);
     </script>
 </body>
